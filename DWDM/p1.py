@@ -45,7 +45,25 @@ def dicts():
     details = {
         "name": "aniket raj",
         "prn": 1032170250,
-        "attendance": 100.00
+        "attendance": 100.00,
+        "marks": [40, 30, 20, 50]
     }
 
-dicts()
+def splitting():
+    string = "Hello. This is Aniket Raj. I am interested in python"
+    lines = string.split(".")
+    for line in lines:
+        line = line.strip()
+        print(line)
+
+def power(x, n):
+    return x**n
+
+def square(x):
+    return power(x, 2)
+
+def cube(x):
+    return power(x, 3)
+
+print(square(2))
+splitting()
