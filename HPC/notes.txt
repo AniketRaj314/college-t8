@@ -1,0 +1,6 @@
+nproc: Number of threads
+cat /proc/cpuinfo
+cat /prac/meminfo
+
+Pipe the above with less to scroll with mouse
+		    more to scroll with enter
