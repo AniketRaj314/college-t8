@@ -14,7 +14,7 @@ colsass NQueen {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
                 System.out.printf(" %d ", board[i][j]);
-            System.out.printf("\n");
+            System.out.println();
         }
     }
 
@@ -42,7 +42,7 @@ colsass NQueen {
         int board[][] = { { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 0, 0 } };
 
         if (solveNQueen(board, 0) == false) {
-            System.out.printf("Solution does not exist");
+            System.out.println("Solution does not exist");
             return false;
         }
 
